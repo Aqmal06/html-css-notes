@@ -1,6 +1,6 @@
 # html-css-notes
 CSS Grid
--> display:grid (hanya terpakai setiap display:inline-block)
+-> display:grid (hanya terpakai setiap display:inline-block)\
 -> grid-template-columns: Ypx/Xfr
 -> column-gap: (bersebelahan)
 -> row-gap: (atas bawah)
