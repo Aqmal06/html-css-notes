@@ -19,3 +19,14 @@ CSS Position (Digunakan untuk create header dan sidebar)
 -> left 0;\
 -> bottom: 0;/height: px; (Gunakan height untuk header)\
 -> right: 0;/width: px; (Gunakan width untuk sidebar kiri)
+
+position relative dan position obsolute
+->position relative still display content normally, tapi dengan ada element position obsolute dalam position relative,\
+element position obsolute boleh di manipulate\
+->ukuran position obsolute berdasarkan element position relative, bukan pada page\
+-> z-index; (Tentukan element mana perlu display dahulu) (Higher value means element akan display berbanding default value)
+
+CSS Features
+-> element{} manipulate kesemua yang terkandung dalam hood element\
+-> .class element{} target specific class\
+-> .class .class{} target sub class dalam specific class
