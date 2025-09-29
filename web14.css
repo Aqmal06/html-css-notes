@@ -1,0 +1,91 @@
+    body{
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-bottom: 600px;
+    }
+    .header{
+        height: 40px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        z-index: 100px;
+
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .header .aqua{
+        background-color: aqua;
+        padding-right: 46px;
+    }
+    .header .pink{
+        background-color: pink;
+        padding-right: 46px;
+    }
+    .sidebar{
+        background-color: burlywood;
+
+        position: fixed;
+        left: 0px;
+        top: 40px;
+        width: 100px;
+        bottom: 0px;
+    }
+    .container1{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        column-gap: 20px;
+    }
+    .container1 .aqua{
+        background-color: aqua;
+        height: 100px;
+        position: relative;
+    }
+    .inner-1{
+        background-color: black;
+        color: white;
+        position: absolute;
+
+        top: -5px;
+        right: 0px;
+    }
+    .container1 .pink{
+        background-color: pink;
+        height: 200px;
+        position: relative;
+    }
+    .inner-2{
+        background-color: red;
+        color: white;
+        position: absolute;
+        border-radius: 25px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        cursor: pointer;
+
+        top: -4px;
+        right: -2px;
+    }
+    .close{
+        background-color: rgb(74, 74, 74);
+        color: white;
+        position: absolute;
+        transition: opacity 0.15s;
+        opacity: 0;
+        pointer-events: none;
+
+        top: 24px;
+        right: -26px;
+    }
+    .inner-2:hover .close{
+        opacity: 1;
+    }
+    
+    .container1 .pink a{
+        text-decoration: none;
+        color: white;
+    }
