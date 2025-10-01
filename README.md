@@ -1,4 +1,13 @@
 # html-css-notes
+HTML Properties\
+-> text element? merupakan element special dalam text\
+-> <strong> bold dalam text\
+-> <u> underline\
+-> <span> -> default p, tapi boleh modify dalam css\
+Image dan Search box\
+-> <img src"path_name">\
+-> <input type="code" placeholder="code"">\
+
 CSS Grid\
 -> display:grid (hanya terpakai setiap display:inline-block)\
 -> grid-template-columns: Ypx/Xfr\
