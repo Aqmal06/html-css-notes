@@ -6,7 +6,7 @@ HTML Properties\
 -> <span> -> default p, tapi boleh modify dalam css\
 Image dan Search box\
 -> <img src"path_name">\
--> <input type="code" placeholder="code"">\
+-> <input type="code" placeholder="code"">
 
 CSS Grid\
 -> display:grid (hanya terpakai setiap display:inline-block)\
